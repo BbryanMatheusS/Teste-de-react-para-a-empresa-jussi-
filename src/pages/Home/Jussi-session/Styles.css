@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,500&display=swap");
+
+/*
+Essa é a parte parta Jussi-session
+*/
+
+div#Jussi-session {
+	border: 1px solid black;
+	background: linear-gradient(90deg, white 50%, #f2f2f2 50%);
+	position: static;
+	position: relative;
+	width: 100%;
+	height: 648px;
+	left: 0px;
+	flex: none;
+	order: 4;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+div#Jussi-session h1 {
+	font-size: 45px;
+	position: absolute;
+	display: inline-flex;
+	top: 50px;
+	left: 208px;
+
+	text-transform: uppercase;
+	width: 250px;
+}
+div#Jussi-session p {
+	width: 250px;
+	position: absolute;
+	display: inline-flex;
+	top: 168px;
+	left: 208px;
+	line-height: 24px;
+	font-size: 17px;
+}
+div#Jussi-session .imgJussi {
+	position: absolute;
+	display: inline-flex;
+	top: 64px;
+	left: 600px;
+
+	width: 676px;
+	height: 520px;
+}
+div#Jussi-session button {
+	font-weight: bold;
+	font-size: 16px;
+	position: absolute;
+	width: 162px;
+	height: 48px;
+	background: none;
+	top: 500px;
+	left: 210px;
+	border-radius: 5px;
+}
+div#Jussi-session button a {
+	text-decoration: none;
+	color: inherit;
+}
+.Button :hover {
+	cursor: pointer;
+}

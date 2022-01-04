@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,500&display=swap");
+
+/*Area da Logo-bar*/
+
+div#Logo-bar {
+	background: #f2f2f2;
+	border: 1px solid black;
+	position: static;
+	display: flex;
+	width: 100%;
+	height: 80px;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+div#Logo-bar p:nth-child(1) {
+	position: relative;
+	display: flex;
+	top: 10px;
+	left: 140px;
+	font-size: 18px;
+}
+div#Logo-bar p:nth-child(2) {
+	position: relative;
+	display: flex;
+	left: 200px;
+	top: 12px;
+}
+.Brastemp {
+	position: relative;
+	display: flex;
+	top: 30px;
+	left: 280px;
+	height: 25px;
+	width: 160px;
+}
+.compraCerta {
+	position: relative;
+	display: flex;
+	top: 30px;
+	left: 340px;
+	height: 22px;
+	width: 180px;
+}
+.Consul {
+	position: relative;
+	display: flex;
+	top: 22px;
+	left: 410px;
+	height: 38px;
+	width: 88px;
+}
+.Thebar {
+	position: relative;
+	display: flex;
+	top: 20px;
+	left: 490px;
+	height: 39px;
+	width: 130px;
+}

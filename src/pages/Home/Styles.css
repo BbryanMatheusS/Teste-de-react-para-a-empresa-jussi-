@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,500&display=swap");
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+div#content {
+	color: #000000;
+	font-family: "Barlow", sans-serif;
+
+	display: flex;
+	flex-direction: column;
+	left: 12%;
+
+	position: absolute;
+	width: 1440px;
+	height: 2921px;
+	background: #ffffff;
+}

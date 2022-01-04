@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,500&display=swap");
+
+/*
+Essa é a parte para a Our-soluctions
+*/
+
+div#Our-soluctions {
+	border: 1px solid black;
+
+	position: absolute;
+	position: static;
+	width: 100%;
+	height: 557px;
+	left: 0px;
+	flex: none;
+	order: 3;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+.title {
+	display: flex;
+	position: relative;
+	top: 50px;
+	left: 160px;
+	font-size: 40px;
+}
+
+.items {
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+	position: relative;
+	top: 30px;
+	left: 160px;
+
+	width: 75%;
+	height: 75%;
+}
+.items::-webkit-scrollbar {
+	display: none;
+}
+
+.p1 {
+	margin-right: 30px;
+	position: relative;
+	top: 10px;
+	width: 210px;
+	height: 381px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: block;
+	flex: none;
+}
+.p1 h2 {
+	margin-left: 16px;
+	height: 24px;
+	width: 160px;
+	font-size: 17px;
+}
+.p1 p {
+	margin-left: 16px;
+	height: 24px;
+	width: 141px;
+	font-size: 12px;
+}
+.p1 img {
+	margin-left: 16px;
+	margin-top: 16px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	border: solid rgba(0, 0, 0, 0.5) 1px;
+	background: url("../../../imgs/Pokebola.png");
+}
+div#Our-soluctions .Btxt {
+	font-weight: bold;
+	font-size: 16px;
+	position: absolute;
+	width: 170px;
+	height: 48px;
+	background: #03ffa5;
+	top: 315px;
+	left: 16px;
+
+	border-radius: 5px;
+}
+.Buttons {
+	background-color: transparent;
+	display: flex;
+	flex: none;
+	position: absolute;
+	left: 1160px;
+	top: 820px;
+}
+
+.Buttons button {
+	background-color: transparent;
+	display: flex;
+	border: none;
+	padding: 0;
+	margin: 0;
+	width: 44px;
+	height: 44px;
+	cursor: pointer;
+	font-size: 40px;
+	color: rgb(255, 42, 77);
+}
