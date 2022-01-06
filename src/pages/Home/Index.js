@@ -1,7 +1,7 @@
-import React/* , { useEffect, useState } */ from "react";
+import React, { useEffect, useState } from "react";
 import './Styles.css';
 
-/* import api from '../../api.js'; */
+import api from '../../api.js';
 
 
 import Navbar from "./Nav-bar/Index.js";
@@ -18,50 +18,104 @@ import Footer from "./Footer/Index.js";
 
 const Home = () => {
 
-/* 
 
-  const[Pokemon, setPokemon] = useState('');
-
-  const[dataPokemon, setDataPokemon] = useState([]);
-  const[PokemonName, setPokemonName] = useState([]);
-  const[PokemonMoves, setPokemonMoves] = useState([]);
-  const[PokemonType, setPokemonType] = useState([]);
-  const[PokemonDex, setPokemonDex] = useState([]);
+  
+  
+  const [DataPokemon, setDataPokemon] = useState([]);
+  const [PokemonsName, setPokemonsName] = useState([]);
 
 
-  useEffect(() => {
-    api.get('/pokemon/venusaur')
-      .then(response => {
 
-        setDataPokemon(response.data)
-        setPokemonName(response.data.name)
-        setPokemonMoves(response.data.moves)
-        setPokemonType(response.data.types[0].type.name)
-        setPokemonDex(response.data.id)
+  
+  useEffect (() => {
+    const pokemons = async () => {
+      const {data} = await api.get(`/pokedex/2/`)
+      const dados = data.pokemon_entries
+      setPokemonsName(...PokemonsName, dados.map(dado => (
+        dado.pokemon_species.name
+      )))
+      
+      
+    };   
+    pokemons()  
+            // .then(response => {
+            //   setPokemons(response.data.pokemon_entries)
+            //   console.log(Pokemons)
+            // }
 
-        console.log(dataPokemon)
-        console.log(PokemonName)
-        console.log(PokemonMoves)
-        console.log(PokemonDex)
-        console.log(PokemonType)
-      })
-      .catch( 
-        error => {
-          console.log(error + ' Pokemon inexistente')
-        }
-      )
+
+
+            // )
+            // .catch(
+            //   error => (
+            //     console.log(error + " Pokemon inexistente")
+            //   )
+            // )
+    
       // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
-   
+  // console.log(PokemonsName)
+  
+  
+
+  useEffect (() => {
+    const dados = async () => {
+
+      
+      for(let i = 0; i < PokemonsName.length ; i++)
+        {
+          const {data} = await api.get(`/pokemon/${PokemonsName[i]}/`)
+          const DadosPokemon =  
+            {
+              id: data.id ,
+              name: data.name,
+              type: data.types.map(type => type.type.name),
+              move: data.moves.map(move => move.move.name),
+              img: data.sprites.other.home.front_default
+            }
+
+
+          // setDataPokemon(...DataPokemon , DadosPokemon)
+          setDataPokemon((prevState) => ([...prevState, DadosPokemon]))
+          
+          
+
+            
+            
+
+        }
+        
+      
+
+      // const {data} = await api.get(`/pokemon/${PokemonsName}/`)
+      // const dadosPokemon = [...DataPokemon, 
+      //   {
+      //     id: data.id ,
+      //     name: data.name,
+      //     type: data.types.map(type => type.type.name),
+      //     move: data.moves.map(move => move.move.name)
+      //   }]
+      // setDataPokemon(dadosPokemon)
 
 
 
 
- */
 
 
 
+    }
 
+    dados()
+  },[PokemonsName])
+
+  // console.log(DataPokemon)
+  
+
+  
+  
+  
+
+  
 
   // PARA FAZER A TRANSIÇAO DA TELA AO TOCAR EM UMA OPÇAO DO MENU:
   const menuItems = document.querySelectorAll('#Nav-bar a[href^="#"]');
@@ -82,6 +136,7 @@ const Home = () => {
       behavior: "smooth",
     })
   }
+  
 
 
 
@@ -94,7 +149,7 @@ const Home = () => {
 
       <LogoBar />
 
-      <OurSoluctions />
+      <OurSoluctions DataPokemon={DataPokemon} />
 
       <JussiSession />
 
