@@ -2,6 +2,7 @@ import React from "react";
 
 import imgJussi from '../../../imgs/image-jussi.png';
 
+
 import './Styles.css';
 
 
@@ -19,11 +20,16 @@ const JussiSession = () => {
                 Product Managamenet, User Experience Design, SEO, 
                 Tecnologia, Agile e User Behavior Analytics. 
             </p>
-            <a className="Button" href="https://jussi.com.br/" rel="noreferrer" target="_blank">
-                <button> Conheça a Jüssi </button>
-            </a>
-            
+            <div id="button">
+                <a href="https://jussi.com.br/" rel="noreferrer" target="_blank">                
+                    <button>Conheça a Jüssi</button>
+                </a>                
+            </div>
+
+           
             <img className="imgJussi" src={imgJussi} alt="imgJussi" />
+        
+            
         </div>
 
     )

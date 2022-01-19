@@ -2,48 +2,149 @@
 
 /* essa é a parte do NewLetter*/
 
-div#Newletter {
-	text-align: center;
-	border: 1px solid black;
-	color: #ffffff;
-	font-family: "Barlow", sans-serif;
-	font-size: 32px;
-	font-weight: bold;
-	text-transform: uppercase;
-	position: static;
-	width: 100%;
-	height: 436px;
-	left: 0px;
-	background: #000000;
-	flex: none;
-	order: 6;
-	flex-grow: 0;
-	margin: 0px 0px;
-}
-div#Newletter p {
-	padding-top: 60px;
-}
-div.email {
-	display: inline-flex;
-	position: relative;
-	border-bottom: 2px solid #03ffa5;
-}
-div#Newletter input#email {
-	color: #ffffff;
-	background-color: #000000;
-	border: 0 none;
-	outline: 0;
+@media (max-device-width: 500px) {
+	div#Newletter {
+		text-align: center;
+		border: 1px solid black;
+		color: #ffffff;
+		font-family: "Barlow", sans-serif;
 
-	width: 250px;
-	height: 30px;
+		position: static;
+		width: 100%;
+		height: 436px;
+		left: 0px;
+		background: #000000;
+		flex: none;
+		order: 6;
+		flex-grow: 0;
+		margin: 0px 0px;
+	}
+	div#Newletter p {
+		margin: 100px 0px 0px 0px;
+		font-size: 1.5em;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	div.email {
+		width: 250px;
+		margin: 30px 0px 0px 0px;
+		display: inline-flex;
+
+		border-bottom: 2px solid #03ffa5;
+	}
+	div#Newletter input#email {
+		color: #ffffff;
+		background-color: #000000;
+		border: 0 none;
+		outline: 0;
+		width: 80%;
+		height: 30px;
+	}
+
+	div#Newletter input#submit {
+		color: #03ffa5;
+		border: 0 none;
+		outline: 0;
+		background-color: #000000;
+		margin: 0px 0px 0px 0px;
+		height: 30px;
+	}
 }
 
-div#Newletter input#submit {
-	color: #03ffa5;
-	border: 0 none;
-	outline: 0;
+@media (min-device-width: 501px) and (max-device-width: 999px) {
+	div#Newletter {
+		text-align: center;
+		border: 1px solid black;
+		color: #ffffff;
+		font-family: "Barlow", sans-serif;
 
-	background-color: #000000;
-	margin-left: 30px;
-	height: 30px;
+		width: 100%;
+		height: 436px;
+
+		background: #000000;
+
+		order: 6;
+		flex-grow: 0;
+	}
+	div#Newletter p {
+		margin: 100px 0px 0px 0px;
+		font-size: 1.5em;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	div.email {
+		width: 400px;
+		margin: 30px 0px 0px 0px;
+		display: inline-flex;
+		border-bottom: 2px solid #03ffa5;
+	}
+	div#Newletter input#email {
+		color: #ffffff;
+		background-color: #000000;
+		border: 0 none;
+		outline: 0;
+		width: 80%;
+		height: 30px;
+	}
+
+	div#Newletter input#submit {
+		color: #03ffa5;
+		border: 0 none;
+		outline: 0;
+
+		background-color: #000000;
+		margin-left: 30px;
+		height: 30px;
+	}
+}
+
+@media (min-device-width: 1000px) {
+	div#Newletter {
+		text-align: center;
+		border: 1px solid black;
+		color: #ffffff;
+		font-family: "Barlow", sans-serif;
+
+		width: 100%;
+		height: 436px;
+
+		background: #000000;
+
+		order: 6;
+		flex-grow: 0;
+	}
+	div#Newletter p {
+		margin: 100px 0px 0px 0px;
+		font-size: 2em;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	div.email {
+		width: 400px;
+		margin: 40px 0px 0px 0px;
+		display: inline-flex;
+		border-bottom: 2px solid #03ffa5;
+	}
+	div#Newletter input#email {
+		color: #ffffff;
+		background-color: #000000;
+		border: 0 none;
+		outline: 0;
+
+		width: 80%;
+		height: 30px;
+	}
+
+	div#Newletter input#submit {
+		color: #03ffa5;
+		border: 0 none;
+		outline: 0;
+
+		background-color: #000000;
+		margin-left: 30px;
+		height: 30px;
+	}
 }

@@ -67,12 +67,12 @@ const OurSoluctions = ({DataPokemon}) => {
     const handleLeftClick = (e) => {
         e.preventDefault()
         //console.log(carrossel.current.offsetWidth)
-        carrossel.current.scrollLeft -= 968
+        carrossel.current.scrollLeft -= /* 968 */ 208
     }
     const handleRightClick = (e) => {
         e.preventDefault()
         //console.log(carrossel.current.offsetWidth)
-        carrossel.current.scrollLeft += 968
+        carrossel.current.scrollLeft += /* 968 */ 208
     }
 
 
@@ -96,23 +96,17 @@ const OurSoluctions = ({DataPokemon}) => {
 
                     return(
 
-                    <div className="p1">
+                    <div className="Poke_info">
                         <img src={poke.img} alt="imagemP1" />          
-                            <h2>#{poke.id}º {poke.name}</h2>
-                            <p>Type:{poke.type}</p>
-                            <p>{poke.move[0]}</p>
-                            <p>{poke.move[1]}</p>
-                            <p>{poke.move[2]}</p>
-                            <button  className="Btxt">Ver Solução</button>
+                        <h2>#{poke.id}º {poke.name}</h2>
+                        <p>Type:{poke.type}</p>
+                        <p>{poke.move[0]}</p>
+                        <p>{poke.move[1]}</p>
+                        <p>{poke.move[2]}</p>
+                        <button  className="Btxt">Ver Solução</button>
                     </div>
 
                 )})}
-                    
-                
-                
-                
-                   
-                   
             </div>
             <div className="Buttons">
                 <button onClick={handleLeftClick}><CgArrowLeftR/></button>

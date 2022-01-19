@@ -1,18 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,500&display=swap");
 
-body {
-	-webkit-font-smoothing: antialiased;
+* {
+	margin: 0;
+	padding: 0;
 }
+
+@media screen and (max-device-width: 500px) {
+	div#content {
+		font-family: "Barlow", sans-serif;
+		margin: auto;
+
+		max-width: 600px;
+		min-height: auto;
+		background: #ffffff;
+	}
+}
+
 div#content {
-	color: #000000;
 	font-family: "Barlow", sans-serif;
-
-	display: flex;
-	flex-direction: column;
-	left: 12%;
-
-	position: absolute;
-	width: 1440px;
-	height: 2921px;
+	margin: auto;
+	max-width: 1440px;
+	height: auto;
 	background: #ffffff;
 }

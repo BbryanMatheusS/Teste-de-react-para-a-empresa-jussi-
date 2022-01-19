@@ -4,62 +4,174 @@
 Essa é a parte parta Jussi-session
 */
 
-div#Jussi-session {
-	border: 1px solid black;
-	background: linear-gradient(90deg, white 50%, #f2f2f2 50%);
-	position: static;
-	position: relative;
-	width: 100%;
-	height: 648px;
-	left: 0px;
-	flex: none;
-	order: 4;
-	flex-grow: 0;
-	margin: 0px 0px;
-}
-div#Jussi-session h1 {
-	font-size: 45px;
-	position: absolute;
-	display: inline-flex;
-	top: 50px;
-	left: 208px;
+@media (max-device-width: 500px) {
+	div#Jussi-session {
+		border: 1px solid black;
+		background: linear-gradient(180deg, white 50%, #f2f2f2 50%);
 
-	text-transform: uppercase;
-	width: 250px;
-}
-div#Jussi-session p {
-	width: 250px;
-	position: absolute;
-	display: inline-flex;
-	top: 168px;
-	left: 208px;
-	line-height: 24px;
-	font-size: 17px;
-}
-div#Jussi-session .imgJussi {
-	position: absolute;
-	display: inline-flex;
-	top: 64px;
-	left: 600px;
+		width: 100%;
+		height: auto;
+		order: 4;
+		flex-grow: 0;
+		margin: 0px 0px;
+	}
+	div#Jussi-session > h1 {
+		text-align: center;
+		margin: 25px 0px 0px 0px;
+		font-size: 45px;
+		text-transform: uppercase;
+	}
+	div#Jussi-session > p {
+		padding: 20px 20px 0px 20px;
+		text-align: center;
+		text-align: justify;
+		line-height: 24px;
+		font-size: 17px;
+	}
+	div#Jussi-session > div#button {
+		margin: 30px auto;
+		width: 162px;
+		height: 48px;
+		background: none;
+	}
 
-	width: 676px;
-	height: 520px;
+	div#Jussi-session button {
+		font-weight: bold;
+		font-size: 16px;
+
+		width: 162px;
+		height: 48px;
+		background: none;
+
+		border-radius: 5px;
+	}
+	div#Jussi-session button a {
+		text-decoration: none;
+		color: inherit;
+	}
+	button:hover {
+		cursor: pointer;
+	}
+
+	div#Jussi-session .imgJussi {
+		margin: auto;
+		width: 100%;
+	}
 }
-div#Jussi-session button {
-	font-weight: bold;
-	font-size: 16px;
-	position: absolute;
-	width: 162px;
-	height: 48px;
-	background: none;
-	top: 500px;
-	left: 210px;
-	border-radius: 5px;
+
+@media (min-device-width: 501px) and (max-device-width: 1000px) {
+	div#Jussi-session {
+		border: 1px solid black;
+		background: linear-gradient(180deg, white 50%, #f2f2f2 50%);
+
+		width: 100%;
+		height: auto;
+		order: 4;
+		flex-grow: 0;
+		margin: 0px 0px;
+	}
+	div#Jussi-session > h1 {
+		text-align: center;
+		margin: 25px 0px 0px 0px;
+		font-size: 45px;
+		text-transform: uppercase;
+	}
+	div#Jussi-session > p {
+		margin: 15px 100px 0px 100px;
+		text-align: center;
+		text-align: justify;
+
+		line-height: 24px;
+		font-size: 17px;
+	}
+	div#Jussi-session > div#button {
+		margin: 30px auto;
+		width: 162px;
+		height: 48px;
+		background: none;
+	}
+
+	div#Jussi-session button {
+		font-weight: bold;
+		font-size: 16px;
+
+		width: 162px;
+		height: 48px;
+		background: none;
+
+		border-radius: 5px;
+	}
+	div#Jussi-session button a {
+		text-decoration: none;
+		color: inherit;
+	}
+	button:hover {
+		cursor: pointer;
+	}
+
+	div#Jussi-session .imgJussi {
+		margin-left: 14%;
+		max-width: 70%;
+	}
 }
-div#Jussi-session button a {
-	text-decoration: none;
-	color: inherit;
-}
-.Button :hover {
-	cursor: pointer;
+
+@media (min-device-width: 1000px) {
+	div#Jussi-session {
+		border: 1px solid black;
+		background: linear-gradient(90deg, white 50%, #f2f2f2 50%);
+		position: static;
+		position: relative;
+		width: 100%;
+		height: 648px;
+		left: 0px;
+		flex: none;
+		order: 4;
+		flex-grow: 0;
+		margin: 0px 0px;
+	}
+	div#Jussi-session h1 {
+		font-size: 45px;
+		position: absolute;
+		display: inline-flex;
+		top: 50px;
+		left: 14%;
+
+		text-transform: uppercase;
+		width: 250px;
+	}
+	div#Jussi-session p {
+		width: 250px;
+		position: absolute;
+		display: inline-flex;
+		top: 168px;
+		left: 14%;
+		line-height: 24px;
+		font-size: 17px;
+	}
+	div#Jussi-session .imgJussi {
+		position: absolute;
+		display: inline-flex;
+		top: 64px;
+		left: 40%;
+
+		width: 50%;
+	}
+	div#Jussi-session button {
+		font-weight: bold;
+		font-size: 16px;
+		position: absolute;
+		width: 162px;
+		height: 48px;
+		background: none;
+		top: 500px;
+		left: 14%;
+		border-radius: 5px;
+	}
+	div#Jussi-session button a {
+		text-decoration: none;
+		color: inherit;
+	}
+	.Button :hover {
+		cursor: pointer;
+	}
 }

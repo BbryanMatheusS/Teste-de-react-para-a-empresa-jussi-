@@ -12,7 +12,7 @@ const NewLetter = () => {
             </p>
             
             <div className="email">
-                <input type="email" name="email" id="email" placeholder="Digite seu e-mail"/>
+                <input id="email" type="email" name="email"  placeholder="Digite seu e-mail"/>
                 <input type="submit" id="submit" value="Cadastrar" />
             </div>
             

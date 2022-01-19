@@ -19,26 +19,26 @@ const HeroBanner = () => {
                 usando a plataforma VTEX. 
                 Precisa criar sua loja ou migrar de plataforma?
             </p>
-            <a className="Button" href="/">
-                <button className="Btxt">Veja nossas soluções</button>
-            </a>
+            
+            <div id="button"><button>Veja nossas soluções</button></div>
             
             
-            <div id="imagensbanner3">
+            
+            
+            <div id="imagensbanner3" className="item">
                 <img src={bebida} alt="" />
                 <button className="batedeira">Comprar em 12x</button>
             </div>
-
-            <div id="imagensbanner2">
+            <div id="imagensbanner2" className="item">
                 <img src={geladeira} alt="" />
                 <button className="geladeira">Mais Detalhes</button>
             </div>
-
-            <div id="imagensbanner1">
+            <div id="imagensbanner1" className="item">
                 <img src={batedeira} alt="" />
                 <button className="bebida">Adicionar à sacola</button>
             </div>
         
+    
         </div>
     )
 }

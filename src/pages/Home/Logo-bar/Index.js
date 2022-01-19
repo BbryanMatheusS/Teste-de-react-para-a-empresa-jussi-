@@ -21,11 +21,13 @@ const LogoBar = () => {
             <p>
             <HiOutlineArrowNarrowRight/>
             </p>
-            <a className="Brastemp"  href="https://www.brastemp.com.br/" target="_blank" rel="noopener noreferrer"><img src={Brastemp} alt="Brastemp"/></a>
-            <a className="compraCerta" href="https://www.compracerta.com.br/" target="_blank" rel="noopener noreferrer"><img src={compraCerta} alt="compraCerta"/></a>
-            <a className="Consul" href="https://loja.consul.com.br/" target="_blank" rel="noopener noreferrer"><img  src={Consul} alt="Consul"/></a>
-            <a className="Thebar" href="https://br.thebar.com/" target="_blank" rel="noopener noreferrer"><img  src={Thebar} alt="Thebar"/></a>
-            
+            <ul>
+                <li><a className="Brastemp"  href="https://www.brastemp.com.br/" target="_blank" rel="noopener noreferrer"><img src={Brastemp} alt="Brastemp"/></a></li>
+                <li><a className="compraCerta" href="https://www.compracerta.com.br/" target="_blank" rel="noopener noreferrer"><img src={compraCerta} alt="compraCerta"/></a></li>
+                <li><a className="Consul" href="https://loja.consul.com.br/" target="_blank" rel="noopener noreferrer"><img  src={Consul} alt="Consul"/></a></li>
+                <li><a className="Thebar" href="https://br.thebar.com/" target="_blank" rel="noopener noreferrer"><img  src={Thebar} alt="Thebar"/></a></li>
+                
+            </ul>
             
             
             
