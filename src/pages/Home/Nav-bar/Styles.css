@@ -175,7 +175,7 @@
 	}
 }
 
-@media screen and (min-device-width: 1000px) {
+@media (min-device-width: 1000px) {
 	div#Nav-bar {
 		display: flex;
 		font-family: "Barlow", sans-serif;

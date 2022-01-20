@@ -81,6 +81,12 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
+	div#imagensbanner1 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
+	}
 
 	div#imagensbanner2 {
 		margin: 30px auto;
@@ -98,6 +104,12 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
+	div#imagensbanner2 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
+	}
 
 	div#imagensbanner3 {
 		margin: 30px auto;
@@ -114,6 +126,12 @@
 		top: 20px;
 		color: #ee0e7d;
 		border-radius: 25px;
+	}
+	div#imagensbanner3 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
 	}
 }
 
@@ -196,6 +214,12 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
+	div#imagensbanner1 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
+	}
 
 	div#imagensbanner2 {
 		display: inline-block;
@@ -213,6 +237,12 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
+	div#imagensbanner2 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
+	}
 
 	div#imagensbanner3 {
 		display: inline-block;
@@ -229,6 +259,12 @@
 		top: 20px;
 		color: #ee0e7d;
 		border-radius: 25px;
+	}
+	div#imagensbanner3 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
 	}
 }
 
@@ -264,10 +300,6 @@
 		width: 329px;
 		font-size: 16px;
 		line-height: 24px;
-	}
-
-	button :hover {
-		cursor: pointer;
 	}
 
 	div#Hero-banner > div#button {
@@ -314,6 +346,12 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
+	div#imagensbanner1 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
+	}
 
 	div#imagensbanner2 {
 		position: relative;
@@ -341,6 +379,12 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
+	div#imagensbanner2 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
+	}
 
 	div#imagensbanner3 {
 		position: relative;
@@ -367,5 +411,11 @@
 		top: 20px;
 		color: #ee0e7d;
 		border-radius: 25px;
+	}
+	div#imagensbanner3 button:hover {
+		background-color: #ee0e7e83;
+		cursor: pointer;
+		transition: 0.5s;
+		color: white;
 	}
 }

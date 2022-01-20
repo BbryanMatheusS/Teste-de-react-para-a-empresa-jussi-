@@ -129,20 +129,20 @@
 	}
 	div#Logo-bar p:nth-child(1) {
 		display: block;
-		margin: 25px 0px 0px 180px;
+		margin: 25px 0px 0px 10%;
 		font-size: 1.2rem;
 	}
 	div#Logo-bar p:nth-child(2) {
 		display: block;
-		margin: 28px 0px 0px 60px;
+		margin: 28px 0px 0px 4%;
 	}
 	div#Logo-bar > ul {
 		position: absolute;
-		max-width: 1000px;
+		max-width: 70%;
 		columns: 4;
 		list-style-type: none;
 		top: 25px;
-		left: 550px;
+		left: 40%;
 	}
 
 	.Brastemp > img {

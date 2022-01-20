@@ -84,6 +84,12 @@ Essa é a parte para a Our-soluctions
 		border-radius: 5px;
 	}
 
+	div#Our-soluctions .Btxt:hover {
+		background-color: #03ffa751;
+		cursor: pointer;
+		transition: 0.5s;
+	}
+
 	.Buttons {
 		width: max-content;
 		margin: 20px auto;
@@ -175,6 +181,12 @@ Essa é a parte para a Our-soluctions
 		background: #03ffa5;
 
 		border-radius: 5px;
+	}
+
+	div#Our-soluctions .Btxt:hover {
+		background-color: #03ffa751;
+		cursor: pointer;
+		transition: 0.5s;
 	}
 
 	.Buttons {
@@ -269,6 +281,11 @@ Essa é a parte para a Our-soluctions
 		background: #03ffa5;
 
 		border-radius: 5px;
+	}
+	div#Our-soluctions .Btxt:hover {
+		background-color: #03ffa751;
+		cursor: pointer;
+		transition: 0.5s;
 	}
 
 	.Buttons {

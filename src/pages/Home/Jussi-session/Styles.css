@@ -167,6 +167,12 @@ Essa é a parte parta Jussi-session
 		left: 14%;
 		border-radius: 5px;
 	}
+
+	div#Jussi-session button:hover {
+		background-color: rgb(197, 197, 197);
+		cursor: pointer;
+		transition: 0.5s;
+	}
 	div#Jussi-session button a {
 		text-decoration: none;
 		color: inherit;
