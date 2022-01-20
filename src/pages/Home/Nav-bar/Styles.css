@@ -239,7 +239,7 @@
 		left: 10px;
 		outline: 0;
 		background: transparent;
-		width: 198px;
+		width: 80%;
 		border: none;
 	}
 	.content input::placeholder {
