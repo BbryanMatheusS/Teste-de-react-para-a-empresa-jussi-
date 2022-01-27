@@ -5,7 +5,7 @@
 @media (max-device-width: 500px) {
 	div#Newletter {
 		text-align: center;
-		border: 1px solid black;
+
 		color: #ffffff;
 		font-family: "Barlow", sans-serif;
 
@@ -20,7 +20,7 @@
 		margin: 0px 0px;
 	}
 	div#Newletter p {
-		margin: 100px 0px 0px 0px;
+		padding-top: 100px;
 		font-size: 1.5em;
 		font-weight: bold;
 		text-align: center;
@@ -55,7 +55,7 @@
 @media (min-device-width: 501px) and (max-device-width: 999px) {
 	div#Newletter {
 		text-align: center;
-		border: 1px solid black;
+
 		color: #ffffff;
 		font-family: "Barlow", sans-serif;
 
@@ -68,7 +68,7 @@
 		flex-grow: 0;
 	}
 	div#Newletter p {
-		margin: 100px 0px 0px 0px;
+		padding-top: 100px;
 		font-size: 1.5em;
 		font-weight: bold;
 		text-align: center;
@@ -103,7 +103,7 @@
 @media (min-device-width: 1000px) {
 	div#Newletter {
 		text-align: center;
-		border: 1px solid black;
+
 		color: #ffffff;
 		font-family: "Barlow", sans-serif;
 
@@ -116,7 +116,7 @@
 		flex-grow: 0;
 	}
 	div#Newletter p {
-		margin: 100px 0px 0px 0px;
+		padding-top: 100px;
 		font-size: 2em;
 		font-weight: bold;
 		text-align: center;

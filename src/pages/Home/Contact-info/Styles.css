@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,700;1,500&display=swap");
 
 /*essa é a parte do Contact-info*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
 
 @media (max-device-width: 500px) {
 	div#Contact-info {
 		text-align: center;
-		border: 1px solid black;
+
 		font-family: "Barlow", sans-serif;
 		color: #ffffff;
 
@@ -19,7 +23,7 @@
 	}
 
 	div#Contact-info p:nth-child(1) {
-		margin-top: 80px;
+		padding-top: 80px;
 		font-size: 2em;
 		font-weight: bold;
 	}
@@ -36,7 +40,7 @@
 @media (min-device-width: 501px) and (max-device-width: 999px) {
 	div#Contact-info {
 		text-align: center;
-		border: 1px solid black;
+
 		font-family: "Barlow", sans-serif;
 		color: #ffffff;
 		position: static;
@@ -52,7 +56,7 @@
 	}
 
 	div#Contact-info p:nth-child(1) {
-		margin-top: 80px;
+		padding-top: 80px;
 		font-size: 2em;
 		font-weight: bold;
 	}
@@ -69,7 +73,7 @@
 @media (min-device-width: 1000px) {
 	div#Contact-info {
 		text-align: center;
-		border: 1px solid black;
+
 		font-family: "Barlow", sans-serif;
 		color: #ffffff;
 		position: static;
@@ -85,7 +89,7 @@
 	}
 
 	div#Contact-info p:nth-child(1) {
-		margin-top: 80px;
+		padding-top: 80px;
 		font-size: 2em;
 		font-weight: bold;
 	}

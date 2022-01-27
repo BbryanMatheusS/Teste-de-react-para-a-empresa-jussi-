@@ -10,8 +10,6 @@ Essa é a parte para a Our-soluctions
 
 @media (max-device-width: 500px) {
 	div#Our-soluctions {
-		border: 1px solid black;
-
 		width: 100%;
 		height: 557px;
 
@@ -109,8 +107,6 @@ Essa é a parte para a Our-soluctions
 }
 @media (min-device-width: 501px) and (max-device-width: 999px) {
 	div#Our-soluctions {
-		border: 1px solid black;
-
 		width: 100%;
 		height: 557px;
 
@@ -209,8 +205,6 @@ Essa é a parte para a Our-soluctions
 }
 @media (min-device-width: 1000px) {
 	div#Our-soluctions {
-		border: 1px solid black;
-
 		width: 100%;
 		height: 557px;
 

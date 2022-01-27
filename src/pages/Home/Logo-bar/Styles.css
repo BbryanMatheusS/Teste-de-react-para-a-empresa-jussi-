@@ -9,7 +9,7 @@
 @media (max-device-width: 500px) {
 	div#Logo-bar {
 		background: #f2f2f2;
-		border: 1px solid black;
+
 		width: 100%;
 		height: auto;
 		order: 2;
@@ -17,7 +17,7 @@
 		margin: 0px 0px;
 	}
 	div#Logo-bar > p:nth-child(1) {
-		margin: 20px 0px 0px 0px;
+		padding-top: 20px;
 		text-align: center;
 		left: 140px;
 		font-size: 18px;
@@ -62,7 +62,7 @@
 @media (min-device-width: 501px) and (max-device-width: 1300px) {
 	div#Logo-bar {
 		background: #f2f2f2;
-		border: 1px solid black;
+
 		width: 100%;
 		height: auto;
 		order: 2;
@@ -70,7 +70,8 @@
 		margin: 0px 0px;
 	}
 	div#Logo-bar > p:nth-child(1) {
-		margin: 20px 0px 0px 0px;
+		padding-top: 20px;
+
 		text-align: center;
 		left: 140px;
 		font-size: 18px;
@@ -116,7 +117,7 @@
 @media (min-device-width: 1300px) {
 	div#Logo-bar {
 		background: #f2f2f2;
-		border: 1px solid black;
+
 		display: flex;
 		position: relative;
 		width: 100%;

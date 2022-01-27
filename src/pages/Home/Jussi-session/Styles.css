@@ -6,7 +6,6 @@ Essa é a parte parta Jussi-session
 
 @media (max-device-width: 500px) {
 	div#Jussi-session {
-		border: 1px solid black;
 		background: linear-gradient(180deg, white 50%, #f2f2f2 50%);
 
 		width: 100%;
@@ -61,7 +60,6 @@ Essa é a parte parta Jussi-session
 
 @media (min-device-width: 501px) and (max-device-width: 1000px) {
 	div#Jussi-session {
-		border: 1px solid black;
 		background: linear-gradient(180deg, white 50%, #f2f2f2 50%);
 
 		width: 100%;
@@ -117,7 +115,6 @@ Essa é a parte parta Jussi-session
 
 @media (min-device-width: 1000px) {
 	div#Jussi-session {
-		border: 1px solid black;
 		background: linear-gradient(90deg, white 50%, #f2f2f2 50%);
 		position: static;
 		position: relative;
@@ -154,7 +151,7 @@ Essa é a parte parta Jussi-session
 		top: 64px;
 		left: 40%;
 
-		width: 50%;
+		max-width: 650px;
 	}
 	div#Jussi-session button {
 		font-weight: bold;

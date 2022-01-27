@@ -5,10 +5,10 @@
 @media (max-device-width: 500px) {
 	div#Hero-banner {
 		background: #03ffa5;
-		border: 1px solid black;
 
 		width: 100%;
 		height: auto;
+		padding-bottom: 20px;
 
 		order: 1;
 		flex-grow: 0;
@@ -64,62 +64,8 @@
 		box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
 	}
-
-	div#imagensbanner1 {
-		margin: 30px auto;
-	}
-	div#imagensbanner1 img {
-		margin-top: 20px;
-	}
-	div#imagensbanner1 button {
-		position: relative;
-		background: none;
-		border: solid #ee0e7d 1px;
-		width: 144px;
-		height: 48px;
-		top: 50px;
-		color: #ee0e7d;
-		border-radius: 25px;
-	}
-	div#imagensbanner1 button:hover {
-		background-color: #ee0e7e83;
-		cursor: pointer;
-		transition: 0.5s;
-		color: white;
-	}
-
-	div#imagensbanner2 {
-		margin: 30px auto;
-	}
-	div#imagensbanner2 img {
-		margin-top: 15px;
-	}
-	div#imagensbanner2 button {
-		position: relative;
-		background: none;
-		border: solid #ee0e7d 1px;
-		width: 144px;
-		height: 48px;
-		top: 0px;
-		color: #ee0e7d;
-		border-radius: 25px;
-	}
-	div#imagensbanner2 button:hover {
-		background-color: #ee0e7e83;
-		cursor: pointer;
-		transition: 0.5s;
-		color: white;
-	}
-
-	div#imagensbanner3 {
-		margin: 30px auto;
-	}
-	div#imagensbanner3 img {
-		margin-top: 20px;
-	}
-	div#imagensbanner3 button {
-		position: relative;
-		background: none;
+	div.item > button {
+		margin: 15px 0px 0px 0px;
 		border: solid #ee0e7d 1px;
 		width: 144px;
 		height: 48px;
@@ -127,28 +73,46 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
-	div#imagensbanner3 button:hover {
+
+	button:hover {
 		background-color: #ee0e7e83;
 		cursor: pointer;
 		transition: 0.5s;
 		color: white;
 	}
+
+	div.item > img {
+		margin: 15px 0px 0px 0px;
+	}
+
+	div#bannerBatedeira {
+		margin: auto;
+	}
+
+	div#bannerFreezer {
+		margin: 30px auto;
+	}
+
+	div#bannerBebida {
+		margin: 30px auto;
+	}
 }
 
-@media (min-device-width: 501px) and (max-device-width: 999px) {
+@media (min-device-width: 500px) and (max-device-width: 999px) {
 	div#Hero-banner {
+		display: flex;
+		flex-wrap: wrap;
 		background: #03ffa5;
-		border: 1px solid black;
 
-		width: 100%;
+		max-width: 100%;
 		height: auto;
 
 		order: 1;
 		flex-grow: 0;
-		margin: 0px 0px;
 	}
 
 	div#Hero-banner h1 {
+		display: block;
 		padding: 10px;
 		margin: 30px 0px 0px 0px;
 		text-align: center;
@@ -158,6 +122,7 @@
 	}
 
 	div#Hero-banner p {
+		margin: auto;
 		padding: 10px;
 		text-align: center;
 		text-indent: 20px;
@@ -166,15 +131,16 @@
 		line-height: 24px;
 	}
 
-	button:hover {
-		cursor: pointer;
-	}
-
 	div#Hero-banner > div#button {
+		text-align: center;
 		margin: 30px auto;
-		width: 196px;
+		width: 100%;
 		height: 48px;
 		background: none;
+	}
+
+	button:hover {
+		cursor: pointer;
 	}
 
 	div#Hero-banner > div#button > button {
@@ -189,7 +155,7 @@
 	}
 
 	div.item {
-		margin: 10px 0px 20px 60px;
+		margin: 10px auto;
 		width: 209px;
 		height: 271px;
 		text-align: center;
@@ -197,62 +163,8 @@
 		box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
 		border-radius: 10px;
 	}
-
-	div#imagensbanner1 {
-		display: inline-block;
-	}
-	div#imagensbanner1 img {
-		margin-top: 20px;
-	}
-	div#imagensbanner1 button {
-		position: relative;
-		background: none;
-		border: solid #ee0e7d 1px;
-		width: 144px;
-		height: 48px;
-		top: 50px;
-		color: #ee0e7d;
-		border-radius: 25px;
-	}
-	div#imagensbanner1 button:hover {
-		background-color: #ee0e7e83;
-		cursor: pointer;
-		transition: 0.5s;
-		color: white;
-	}
-
-	div#imagensbanner2 {
-		display: inline-block;
-	}
-	div#imagensbanner2 img {
-		margin-top: 15px;
-	}
-	div#imagensbanner2 button {
-		position: relative;
-		background: none;
-		border: solid #ee0e7d 1px;
-		width: 144px;
-		height: 48px;
-		top: 0px;
-		color: #ee0e7d;
-		border-radius: 25px;
-	}
-	div#imagensbanner2 button:hover {
-		background-color: #ee0e7e83;
-		cursor: pointer;
-		transition: 0.5s;
-		color: white;
-	}
-
-	div#imagensbanner3 {
-		display: inline-block;
-	}
-	div#imagensbanner3 img {
-		margin-top: 20px;
-	}
-	div#imagensbanner3 button {
-		position: relative;
-		background: none;
+	div.item > button {
+		margin: 15px 0px 0px 0px;
 		border: solid #ee0e7d 1px;
 		width: 144px;
 		height: 48px;
@@ -260,18 +172,19 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
-	div#imagensbanner3 button:hover {
-		background-color: #ee0e7e83;
-		cursor: pointer;
-		transition: 0.5s;
-		color: white;
+	div.item > img {
+		margin: 15px 0px 0px 0px;
+	}
+
+	div#bannerBatedeira {
+		margin-bottom: 30px;
 	}
 }
 
 @media (min-device-width: 1000px) {
 	div#Hero-banner {
 		background: #03ffa5;
-		border: 1px solid black;
+
 		position: static;
 		position: relative;
 		width: 100%;
@@ -320,91 +233,16 @@
 		border-radius: 5px;
 	}
 
-	div#imagensbanner1 {
-		position: relative;
-		position: absolute;
-		text-align: center;
-		background: #ffffff;
+	div.item {
 		width: 209px;
 		height: 271px;
-		top: 25px;
-		left: 65%;
-
-		border-radius: 10px;
-		box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
-	}
-	div#imagensbanner1 img {
-		margin-top: 20px;
-	}
-	div#imagensbanner1 button {
-		position: relative;
-		background: none;
-		border: solid #ee0e7d 1px;
-		width: 144px;
-		height: 48px;
-		top: 50px;
-		color: #ee0e7d;
-		border-radius: 25px;
-	}
-	div#imagensbanner1 button:hover {
-		background-color: #ee0e7e83;
-		cursor: pointer;
-		transition: 0.5s;
-		color: white;
-	}
-
-	div#imagensbanner2 {
-		position: relative;
-		position: absolute;
 		text-align: center;
 		background: #ffffff;
-		width: 209px;
-		height: 271px;
-		top: 172px;
-		left: 55%;
-
-		border-radius: 10px;
 		box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
-	}
-	div#imagensbanner2 img {
-		margin-top: 15px;
-	}
-	div#imagensbanner2 button {
-		position: relative;
-		background: none;
-		border: solid #ee0e7d 1px;
-		width: 144px;
-		height: 48px;
-		top: 0px;
-		color: #ee0e7d;
-		border-radius: 25px;
-	}
-	div#imagensbanner2 button:hover {
-		background-color: #ee0e7e83;
-		cursor: pointer;
-		transition: 0.5s;
-		color: white;
-	}
-
-	div#imagensbanner3 {
-		position: relative;
-
-		text-align: center;
-		background: #ffffff;
-		width: 209px;
-		height: 271px;
-		top: 190px;
-		left: 74%;
-
 		border-radius: 10px;
-		box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.5);
 	}
-	div#imagensbanner3 img {
-		margin-top: 20px;
-	}
-	div#imagensbanner3 button {
-		position: relative;
-		background: none;
+	div.item > button {
+		margin: 15px 0px 0px 0px;
 		border: solid #ee0e7d 1px;
 		width: 144px;
 		height: 48px;
@@ -412,10 +250,33 @@
 		color: #ee0e7d;
 		border-radius: 25px;
 	}
-	div#imagensbanner3 button:hover {
+
+	button:hover {
 		background-color: #ee0e7e83;
 		cursor: pointer;
 		transition: 0.5s;
 		color: white;
+	}
+
+	div.item > img {
+		margin: 15px 0px 0px 0px;
+	}
+
+	div#bannerBatedeira {
+		position: absolute;
+		top: 25px;
+		left: 65%;
+	}
+
+	div#bannerFreezer {
+		position: absolute;
+		top: 172px;
+		left: 55%;
+	}
+
+	div#bannerBebida {
+		position: absolute;
+		top: 230px;
+		left: 74%;
 	}
 }

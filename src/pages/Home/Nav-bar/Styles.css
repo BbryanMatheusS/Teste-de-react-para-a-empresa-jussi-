@@ -5,7 +5,7 @@
 @media (max-device-width: 500px) {
 	div#Nav-bar {
 		font-family: "Barlow", sans-serif;
-		border: 1px solid black;
+
 		display: flex;
 		flex-direction: column;
 
@@ -93,7 +93,7 @@
 @media (min-device-width: 501px) and (max-device-width: 999px) {
 	div#Nav-bar {
 		font-family: "Barlow", sans-serif;
-		border: 1px solid black;
+
 		display: flex;
 		flex-direction: column;
 
@@ -179,7 +179,7 @@
 	div#Nav-bar {
 		display: flex;
 		font-family: "Barlow", sans-serif;
-		border: 1px solid black;
+
 		position: static;
 
 		width: 100%;

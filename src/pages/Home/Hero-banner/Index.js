@@ -25,15 +25,15 @@ const HeroBanner = () => {
             
             
             
-            <div id="imagensbanner3" className="item">
+            <div id="bannerBebida" className="item">
                 <img src={bebida} alt="" />
                 <button className="batedeira">Comprar em 12x</button>
             </div>
-            <div id="imagensbanner2" className="item">
+            <div id="bannerFreezer" className="item">
                 <img src={geladeira} alt="" />
                 <button className="geladeira">Mais Detalhes</button>
             </div>
-            <div id="imagensbanner1" className="item">
+            <div id="bannerBatedeira" className="item">
                 <img src={batedeira} alt="" />
                 <button className="bebida">Adicionar à sacola</button>
             </div>
