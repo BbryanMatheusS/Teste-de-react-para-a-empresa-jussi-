@@ -169,6 +169,7 @@ Essa é a parte parta Jussi-session
 		background-color: rgb(197, 197, 197);
 		cursor: pointer;
 		transition: 0.5s;
+		color: #000000ea;
 	}
 	div#Jussi-session button a {
 		text-decoration: none;
